@@ -4,8 +4,7 @@ This is an update to your Longaberger project that will add validations to all o
 For an example of input validations, if the user tries to select "X" as the basket type, the program should prompt that X is not one of the accepted values for basket type, and prompt for the basket type again. This will require if/else or switch statements, and loops. You will do this for ALL inputs.
 
 ## Longberger class updates
-1. Validate all user input (Order Type, Basket Type, Accessory Type, State, Customer Type and
-further processing of Y/N).
+1. Validate all user input (Order Type, Basket Type, Accessory Type, State, and Customer Type)
 2. Create a loop for each user input validation requiring the user to input valid data. Display an
 error message each time invalid data is entered.
 3. Every parse method you use should be wrapped in a try/catch statement for error handling.
