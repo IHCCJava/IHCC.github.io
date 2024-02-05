@@ -1,3 +1,5 @@
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
 title: Indian Hills Community College CIS 171 Java Docs 
 description: Documentation and resources for CIS 171 Java
