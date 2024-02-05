@@ -4,4 +4,4 @@
 
 [Part Two - Validations and Error Handling](part-two-validations/README.md)
 
-[Part Three - Arrays]()
+[Part Three - Arrays](part-three-arrays/README.md)
