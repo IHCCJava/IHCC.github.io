@@ -21,11 +21,14 @@ This is the final update to your longaberger project that will add arrays to sto
     - Accessory Cost
     - Customer Type Literal
     - Discount Percentage
+    - State
+    - State Tax
 2. Search the basket type array for a match to the user input to find the array index for the basket type. Use this array index to access the basket literal and the basket cost arrays.
 3. Search the accessory code array for a match to the user input to find the array index for the accessory code. Use this array index to access the accessory literal and accessory cost arrays.
 4. Use the customer type as the array index to access the customer type literal and discount percentage arrays. (Remember arrays start with 0! Adjust accordingly)
-5. Calculation methods should use the cost array values.
-6. Display method should use the literal array values.
+5. Follow the same pattern as above and use the state and state tax arrays to get state tax
+6. Calculation methods should use the cost array values.
+7. Display method should use the literal array values.
 
 ## Rubric
 
@@ -33,8 +36,8 @@ This project is graded on features and functionality added for this revision.
 
 |Topic| Task| Points|
 |-----|-----|------|
-|**Hard-coded arrays Longaberger class** | Hard-coded arrays added for Basket Type and Accessory Code inside the Longaberger class| 10 |
-|| Only one array was added and/or arrays not setup correctly | 5|
+|**Hard-coded arrays Longaberger class** | Hard-coded arrays added for Basket Type and Accessory Code inside the Longaberger class| 5 |
+|| Only one array was added and/or arrays not setup correctly | 3|
 || Basket Type and Accessory Code arrays missing inside Longaberger class | 0|
 |**Input is validated against arrays**| Basket type and accessory code inputs are now validated against the values inside the hard-coded arrays | 10|
 | | Only one input is validated against values in the arrays and/or the validation is not reading from the array correctly | 5|
@@ -45,4 +48,7 @@ This project is graded on features and functionality added for this revision.
 |**Array usage** | Arrays inside the BasketBuild class are being used correctly to determine cost for calculations, and literal values for display using the indexes | 10 |
 || Some arrays are being utilized for either calculations or displaying and/or the arrays are not being utilized correctly | 5|
 || Arrays are not utilized to lookup values to calculate costs or display literals | 0|
+|**Longaberger loop** | Main class in Longaberger now has a loop and a prompt for if the user wants to enter another basket. If the user selects Y, the program begins again and will allow new baskets to be created until the user types N | 5 |
+|| A main loop and prompt were created, but not working correctly | 2|
+|| No main loop over the program was created | 0|
 | **Total** | | 40|
