@@ -9,9 +9,9 @@ For every project you will follow the same process of:
 ## Step 1: Fork the project
 
 To create a copy of my base code into your own repo, you
-will need to fork this project.
+will need to `fork` this project.
 
-In the top bar here in GitHub there is a fork button. Press that,
+In the top bar in GitHub there is a fork button. Press that,
 and make sure you are logged into your GitHub account. It will
 prompt you with some default settings for this new copied repo,
 and you can accept and fork the project.
@@ -31,7 +31,7 @@ Use your terminal/git bash on your computer and navigate to
 wherever you save your Java projects. Once you are where you want
 to copy the project, type:
 
-git clone https://copiedurl
+`git clone https://copiedurlhere`
 
 Where the copied URL is the one you copied from the green code button
 on GitHub.
@@ -58,13 +58,13 @@ your own terminal as long as you navigated to the project directory.
 
 In the terminal type the following commands:<br>
 
-git add .<br>
+`git add .`<br>
 
-git commit -m "summary of your changes"<br>
+`git commit -m "summary of your changes"`<br>
 
-git push<br>
+`git push`<br>
 
-At any point you can type: git status
+At any point you can type: `git status`
 This will give you the status of your changes, whether you added
 or committed them already.
 
@@ -92,6 +92,4 @@ to run tests. Give it a few minutes, and you'll see a checkmark next to the job.
 
 ## Step 7: Turn it in
 
-I will review the code and tests through the pull request, but to make sure I don't miss anything please
-submit your repo URL to the dropbox in MyHills. You can get this URL by navigating to your repo
-and copying the URL in the browser.
+I will review the code and tests through the pull request. Please submit a link to this pull request, and a zipped up copy of your project for backup to MyHills.
