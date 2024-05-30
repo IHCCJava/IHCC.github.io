@@ -86,8 +86,10 @@ Finally, type:
 
 This will send the committed changes to your remote repo on that branch. Oh, we haven't even talked about branching yet. That will be another lesson :)
 
-Anytime you make new changes, rinse and repeat those three commands:
+Anytime you make new changes, rinse and repeat those three commands:<br>
 
-`git add .`
-`git commit -m "summary of changes"`
-`git push`
+`git add .`<br>
+
+`git commit -m "summary of your changes"`<br>
+
+`git push`<br>
