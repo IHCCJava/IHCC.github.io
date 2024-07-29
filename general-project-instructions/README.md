@@ -88,6 +88,8 @@ You can accept this and click "Create pull request".
 
 Give it a descriptive title and add a description of your changes. Then click "Submit pull request".
 
+You are now taking to the pull request that was just created. The URL should end with `pull/##` where the ## is the unique number for the pull request. Copy that URL. You will use it when you turn in your project.
+
 This will now show up on my side, and I can review your changes. It will also kick off an automated pipeline
 to run tests. Give it a few minutes, and you'll see a checkmark next to the job.
 
