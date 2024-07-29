@@ -77,8 +77,9 @@ is a git terminology that means you are wanting to submit your changes back to t
 you forked from (mine). This gives us a great layout for reviewing the changes you made
 and checking that the automated tests passed.
 
-To do this you will start with your repo open in GitHub. Click on the Pull Request tab located
-on the top bar.
+To do this you will start with **your repo** open in GitHub. You will know you are looking at your repo when it has your username in the URL. (Pull request cannot be created if you try to start it while on my repo). 
+
+Click on the Pull Request tab located on the top bar.
 
 Click "New pull request".
 
