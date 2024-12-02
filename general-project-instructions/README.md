@@ -81,12 +81,12 @@ To do this you will start with **your repo** open in GitHub. You will know you a
 
 Click on the Pull Request tab located on the top bar.
 
-Click "New pull request".
+Click `New pull request`.
 
 By default, the branches will be main and will target your main branch to merge into my repo's main branch.
-You can accept this and click "Create pull request".
+You can accept this and click `Create pull request`.
 
-Give it a descriptive title and add a description of your changes. Then click "Submit pull request".
+Give it a descriptive title and add a description of your changes. Then click `Create pull request`.
 
 You are now taking to the pull request that was just created. The URL should end with `pull/##` where the ## is the unique number for the pull request. Copy that URL. You will use it when you turn in your project.
 
